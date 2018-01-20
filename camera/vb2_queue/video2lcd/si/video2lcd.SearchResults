@@ -1,0 +1,5 @@
+---- StartDevice Matches (4 in 3 files) ----
+Main.c:    iError = tVideoDevice.ptOPr->StartDevice(&tVideoDevice);
+Main.c:        DBG_PRINTF("StartDevice for %s error!\n", argv[1]);
+V4l2.c (video):    .StartDevice = V4l2StartDevice,
+Video_manager.h (include):    int (*StartDevice)(PT_VideoDevice ptVideoDevice);
